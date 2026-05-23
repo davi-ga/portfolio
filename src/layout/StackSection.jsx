@@ -5,10 +5,6 @@ import Triangle from "../components/Triangle";
 import { STACK_CATEGORIES } from "../data/content";
 import { useIsMobile } from "../hooks/useIsMobile";
 
-/**
- * StackSection — tech stack grid.
- * Desktop: four columns. Mobile: two columns.
- */
 const StackSection = () => {
   const isMobile = useIsMobile();
 
