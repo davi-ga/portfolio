@@ -44,14 +44,14 @@ export const RESEARCH_ITEMS = [
   {
     period: "2024 — atual",
     role: "Pesquisador Principal ",
-    org: "Intituto Federal de Goiás - Campus Anápolis",
+    org: "Instituto Federal de Goiás - Campus Anápolis",
     type: "Acadêmico",
     desc: "Otimização preditiva de compiladores JIT em ambientes Serverless. Uso de modelos de IA para redução de latência de cold-start e melhoria de throughput em funções de curta duração.",
   },
   {
     period: "2023 — 2024",
     role: "Pesquisador",
-    org: "Intituto Federal de Goiás - Campus Anápolis",
+    org: "Instituto Federal de Goiás - Campus Anápolis",
     type: "Acadêmico",
     desc: "Quantificação e mitigação de viés racial em modelos de Machine Learning aplicados a documentos do sistema judiciário brasileiro. Metodologias de fairness e auditoria algorítmica.",
   },
