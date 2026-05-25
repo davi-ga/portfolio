@@ -2,7 +2,7 @@
 // All portfolio content lives here.
 // Layout sections import only what they need.
 
-export const NAV_LINKS = ["Sobre","Experiência", "Pesquisa", "Habilidades", "Contato"];
+export const NAV_LINKS = ["Sobre", "Experiência", "Pesquisa", "Habilidades", "Contato"];
 
 export const HERO = {
   name: "Davi Galdino",
@@ -90,6 +90,7 @@ export const ABOUT_STATS = [
 
 export const CONTACT_LINKS = [
   { label: "Email", value: "contato@daviga.dev.br", href: "mailto:contato@daviga.dev.br" },
-  { label: "LinkedIn", value: "/in/davi-ga", href: "https://linkedin.com/in/davi-ga" },
-  { label: "GitHub", value: "github.com/davi-ga", href: "https://github.com/davi-ga" },
+  { label: "LinkedIn", value: "/in/davi-ga", href: "https://linkedin.com/in/davi-ga", target: "_blank" },
+  { label: "GitHub", value: "github.com/davi-ga", href: "https://github.com/davi-ga", target: "_blank" },
+  { label: "Currículo", value: "curriculo.pdf", href: "/curriculo.pdf", target: "_blank" },
 ];

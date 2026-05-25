@@ -1,4 +1,4 @@
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, FileText } from "lucide-react";
 import { C, F } from "../theme";
 import SectionWrapper from "../components/SectionWrapper";
 import CTAButton from "../components/CTAButton";
@@ -127,12 +127,13 @@ const HeroSection = () => {
           </p>
 
           <div style={{ display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap" }}>
-            <CTAButton href={`mailto:${HERO.contact}`}>CONTATO</CTAButton>
+            <CTAButton href={HERO.contact}>CONTATO</CTAButton>
 
             <div style={{ display: "flex", gap: "18px" }}>
-              <IconLink href={HERO.github} Icon={Github} label="GitHub" />
-              <IconLink href={HERO.linkedin} Icon={Linkedin} label="LinkedIn" />
+              <IconLink href={HERO.github} Icon={Github} label="GitHub" target="_blank" rel="noopener noreferrer" />
+              <IconLink href={HERO.linkedin} Icon={Linkedin} label="LinkedIn" target="_blank" rel="noopener noreferrer" />
               <IconLink href={`mailto:${HERO.email}`} Icon={Mail} label="Email" />
+              <IconLink href="/curriculo.pdf" Icon={FileText} label="Currículo" target="_blank" rel="noopener noreferrer" />
             </div>
           </div>
         </div>

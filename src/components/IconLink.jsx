@@ -10,10 +10,12 @@ import { C } from ".././theme";
  *   size     — icon size in px (default 15)
  *   label    — aria-label for accessibility
  */
-const IconLink = ({ href, Icon, size = 15, label }) => (
+const IconLink = ({ href, Icon, size = 15, label, target, rel }) => (
   <a
     href={href}
     aria-label={label}
+    target={target}
+    rel={rel}
     style={{
       color: C.muted,
       transition: "color 0.15s",

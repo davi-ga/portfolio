@@ -42,7 +42,7 @@ const ContactSection = () => {
 
         {/* ── Link rows ── */}
         <div>
-          {CONTACT_LINKS.map(({ label, value, href }) => (
+          {CONTACT_LINKS.map(({ label, value, href, target }) => (
             <div
               key={label}
               style={{
@@ -67,6 +67,8 @@ const ContactSection = () => {
               </span>
               <a
                 href={href}
+                target={target ?? "_self"}
+                rel={target === "_blank" ? "noopener noreferrer" : undefined}
                 style={{
                   fontFamily: F.mono,
                   fontSize: "12px",
