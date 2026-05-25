@@ -22,21 +22,21 @@ export const EXPERIENCE_ITEMS = [
     role: "Desenvolvedor Full-stack & Product Owner",
     org: "Frequência Escolar",
     type: "Produto",
-    desc: "Gestão de equipe multidisciplinar, desenvolvedor Fullstack e integrações de hardware IoT via MQTT e WebSockets.",
+    desc: "Liderança técnica e desenvolvimento de plataforma IoT, orquestrando a sincronização em tempo real de hardwares via MQTT/WebSockets e integrações com IA.",
   },
   {
     period: "Nov 2023 — atual",
     role: "Desenvolvedor Backend & DevOps",
     org: "Otimize Solutions",
     type: "Empresa",
-    desc: "Desenvolvimento de aplicações web, DevOps e integração de modelos de IA em fluxos de produção.",
+    desc: "Engenharia Back-end (Python) e infraestrutura, construindo APIs escaláveis, automações com LLMs e arquiteturas complexas de pagamentos e webhooks.",
   },
   {
     period: "Abr 2023 — Nov 2023",
     role: "Full-Stack Developer & Social Media",
     org: "NIAJus",
     type: "Empresa",
-    desc: "Desenvolvimento full-stack e gestão estratégica de presença digital.",
+    desc: "Desenvolvimento Full-stack com foco em automação de fluxos jurídicos, aliado à gestão da presença digital da marca.",
   },
 ];
 
